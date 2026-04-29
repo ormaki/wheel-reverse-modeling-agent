@@ -19,6 +19,7 @@ input/*.obj
 
 # Local backups and temporary cleanup folders
 _cleanup_backup_*/
+_release_package/
 .tmp/
 
 # Rendered thesis QA pages and intermediate document builds

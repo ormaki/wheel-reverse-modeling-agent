@@ -21,3 +21,34 @@ This project explores a multi-agent workflow for reverse modeling a 3D wheel hub
 ## Notes
 
 Large local assets such as the original STL input, generated STEP outputs, virtual environments, temporary render folders, and cleanup backups are intentionally excluded from Git. This keeps the repository suitable for GitHub while preserving the source code, documentation, and representative thesis artifacts.
+
+## Reproduce On Another Computer
+
+1. Clone this repository:
+
+   ```powershell
+   git clone https://github.com/ormaki/wheel-reverse-modeling-agent.git
+   cd wheel-reverse-modeling-agent
+   ```
+
+2. Download the replication asset package from the GitHub Release page:
+
+   <https://github.com/ormaki/wheel-reverse-modeling-agent/releases/tag/replication-assets-v1>
+
+3. Extract `wheel-reverse-modeling-replication-assets-v1.zip` directly into the repository root. After extraction, these paths should exist:
+
+   - `input/wheel.stl`
+   - `output/extrudeLoopT193_prodHubCutsFixedRimIn12.step`
+   - `output/extrudeLoopT193_prodHubCutsFixedRimIn12.stl`
+   - `output/extrudeLoopT193_prodHubCutsFixedRimIn12.meta.json`
+   - `output/wheel_base_from_features_nospokes_20260422_135255_features.json`
+   - `output/wheel_base_from_features_nospokes_20260422_135255.step`
+   - `output/_member_src_submesh_2.stl`
+
+4. Create the local Python environment:
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\setup_env.ps1
+   ```
+
+5. Run or inspect the project using the scripts in this repository. For the original pipeline setup, see `LOCAL_SETUP.md`.
