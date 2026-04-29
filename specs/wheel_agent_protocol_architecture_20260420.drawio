@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="wheel-agent-protocol-20260420-simple" name="Page-1">
+    <mxGraphModel dx="1542" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#22313F;" value="智能体构建与统一协议示意图" vertex="1">
+          <mxGeometry height="40" width="460" x="470" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leftGroup" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9AA8B3;strokeWidth=1.5;dashed=1;fontSize=16;fontStyle=1;fontColor=#44515C;align=left;verticalAlign=top;spacingTop=10;spacingLeft=12;" value="统一数据对象" vertex="1">
+          <mxGeometry height="560" width="310" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="goal" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F7FA;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="目标对象" vertex="1">
+          <mxGeometry height="54" width="200" x="135" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="task" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F7FA;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="任务对象" vertex="1">
+          <mxGeometry height="54" width="200" x="135" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="result" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F7FA;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="结果对象" vertex="1">
+          <mxGeometry height="54" width="200" x="135" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="state" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F7FA;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="运行状态对象" vertex="1">
+          <mxGeometry height="54" width="200" x="135" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="coord" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE8F3;strokeColor=#4E6475;strokeWidth=2;fontSize=22;fontStyle=1;fontColor=#22313F;" value="协调智能体" vertex="1">
+          <mxGeometry height="90" width="270" x="515" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="rightGroup" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9AA8B3;strokeWidth=1.5;dashed=1;fontSize=16;fontStyle=1;fontColor=#44515C;align=left;verticalAlign=top;spacingTop=10;spacingLeft=12;" value="执行与决策智能体" vertex="1">
+          <mxGeometry height="560" width="320" x="920" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="perception" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="感知智能体" vertex="1">
+          <mxGeometry height="52" width="200" x="980" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="modeling" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1F3;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="建模智能体" vertex="1">
+          <mxGeometry height="52" width="200" x="980" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="评估智能体" vertex="1">
+          <mxGeometry height="52" width="200" x="980" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="optimization" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="优化智能体" vertex="1">
+          <mxGeometry height="52" width="200" x="980" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="record" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="结果记录层" vertex="1">
+          <mxGeometry height="52" width="200" x="980" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="bottomNote" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFB;strokeColor=#9AA8B3;strokeWidth=1.5;fontSize=15;fontColor=#44515C;" value="统一协议将用户目标、阶段任务、执行结果与运行状态组织为可持续流转的内部对象" vertex="1">
+          <mxGeometry height="56" width="760" x="280" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="leftGroup" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B6B7A;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="coord" value="统一协议输入">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="375" />
+              <mxPoint x="420" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="coord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6475;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="rightGroup" value="中心化任务分发">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="375" />
+              <mxPoint x="900" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="rightGroup" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6475;strokeWidth=2;fontSize=12;fontColor=#44515C;endArrow=classic;startArrow=none;" target="coord" value="结果回传与状态汇总">
+          <mxGeometry relative="1" x="-0.3333" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

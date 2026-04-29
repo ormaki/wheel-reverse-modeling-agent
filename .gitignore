@@ -1,0 +1,34 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and bundled dependencies
+.venv/
+.vendorpy/
+.vendoralt/
+.vendorfix/
+
+# Large/generated modeling artifacts
+output/
+out_*/
+*.log
+input/*.stl
+input/*.step
+input/*.obj
+
+# Local backups and temporary cleanup folders
+_cleanup_backup_*/
+.tmp/
+
+# Rendered thesis QA pages and intermediate document builds
+specs/render_check*/
+specs/render_fig*/
+specs/render_simple_test/
+specs/backup_*/
+specs/*.docx
+!specs/毕业论文_完整初稿_20260423_成果对比图版.docx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

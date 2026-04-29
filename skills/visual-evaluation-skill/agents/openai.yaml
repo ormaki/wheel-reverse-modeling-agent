@@ -1,0 +1,7 @@
+interface:
+  display_name: "Visual Evaluation"
+  short_description: "Fixed STL-vs-CAD visual acceptance stage for wheel modeling."
+  default_prompt: "Use $visual-evaluation-skill to run the fixed visual comparison stage for the latest wheel CAD candidate."
+
+policy:
+  allow_implicit_invocation: true

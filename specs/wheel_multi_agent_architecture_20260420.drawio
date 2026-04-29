@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="wheel-arch-20260420-v4" name="Page-1">
+    <mxGraphModel dx="541" dy="298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#22313F;" value="多智能体轮毂逆向建模系统总体架构图" vertex="1">
+          <mxGeometry height="40" width="520" x="430" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#22313F;" value="用户控制入口" vertex="1">
+          <mxGeometry height="58" width="260" x="560" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#22313F;" value="运行时调度模块" vertex="1">
+          <mxGeometry height="58" width="300" x="540" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="coord" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE8F3;strokeColor=#4E6475;strokeWidth=2;fontSize=22;fontStyle=1;fontColor=#22313F;" value="协调智能体" vertex="1">
+          <mxGeometry height="70" width="350" x="515" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="perception" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="感知智能体" vertex="1">
+          <mxGeometry height="56" width="240" x="570" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="modeling" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1F3;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="建模智能体" vertex="1">
+          <mxGeometry height="56" width="240" x="570" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="评估智能体" vertex="1">
+          <mxGeometry height="56" width="240" x="570" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="stagehub" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4ECE7;strokeColor=#6B7B76;strokeWidth=2;fontSize=17;fontStyle=1;fontColor=#22313F;" value="阶段产物" vertex="1">
+          <mxGeometry height="56" width="240" x="570" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="optimization" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#22313F;" value="优化智能体" vertex="1">
+          <mxGeometry height="56" width="220" x="930" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="record" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF3F8;strokeColor=#5B6B7A;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#22313F;" value="结果记录层" vertex="1">
+          <mxGeometry height="56" width="220" x="1020" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F4F1;strokeColor=#6B7B76;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#22313F;" value="轮辋轮心回转体" vertex="1">
+          <mxGeometry height="56" width="220" x="120" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F4F1;strokeColor=#6B7B76;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#22313F;" value="PCD孔" vertex="1">
+          <mxGeometry height="56" width="220" x="390" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F4F1;strokeColor=#6B7B76;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#22313F;" value="轮心非孔特征" vertex="1">
+          <mxGeometry height="56" width="220" x="660" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F4F1;strokeColor=#6B7B76;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#22313F;" value="辐条生成" vertex="1">
+          <mxGeometry height="56" width="220" x="930" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B6B7A;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="runtime" value="任务提交">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="runtime" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B6B7A;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="coord" value="调度任务">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="coord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B6B7A;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="perception" value="阶段任务">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="perception" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6475;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="modeling" value="结构信息">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="modeling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6475;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="evaluation" value="阶段模型">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="evaluation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7B76;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="stagehub" value="通过验收">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="evaluation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6475;strokeWidth=2;fontSize=12;fontColor=#44515C;" target="optimization" value="评估结果">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6475;strokeWidth=2;fontSize=12;fontColor=#44515C;exitX=0.545;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.922;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="coord" value="修正建议">
+          <mxGeometry relative="1" x="-0.4976" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1009" y="450" />
+              <mxPoint x="838" y="450" />
+              <mxPoint x="838" y="370" />
+            </Array>
+            <mxPoint x="1009.2" y="585.004" as="sourcePoint" />
+            <mxPoint x="864" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B6B7A;strokeWidth=2;fontSize=12;fontColor=#44515C;entryX=0.328;entryY=0.006;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" target="record" value="状态记录">
+          <mxGeometry relative="1" x="-0.2782" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1092" y="288" />
+            </Array>
+            <mxPoint x="865" y="288.29" as="sourcePoint" />
+            <mxPoint x="1092.38" y="341.686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7B76;strokeWidth=2;fontSize=12;fontColor=#44515C;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.862;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" target="record" value="阶段记录">
+          <mxGeometry relative="1" x="-0.4883" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="810" y="733" />
+              <mxPoint x="1210" y="733" />
+              <mxPoint x="1210" y="410" />
+              <mxPoint x="1210" y="410" />
+            </Array>
+            <mxPoint x="810" y="736.44" as="sourcePoint" />
+            <mxPoint x="1210" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="stagehub" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7B76;strokeWidth=2;" target="stage1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="stagehub" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7B76;strokeWidth=2;" target="stage2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7B76;strokeWidth=2;" target="stage3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="790" />
+            </Array>
+            <mxPoint x="770" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="stagehub" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7B76;strokeWidth=2;" target="stage4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
