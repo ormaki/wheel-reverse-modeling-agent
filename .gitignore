@@ -11,6 +11,9 @@ __pycache__/
 
 # Large/generated modeling artifacts
 output/
+output_mimo/
+experiments/
+input_readonly/
 out_*/
 *.log
 input/*.stl
